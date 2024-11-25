@@ -1,0 +1,21 @@
+ID|NOMBRE|PRECIO|CANTIDAD
+1|Laptop Dell XPS 13|999.99|30
+2|Monitor Samsung 24"|199.99|50
+3|Teclado Mecánico Razer|89.99|75
+4|Ratón Logitech G502|49.99|100
+5|Auriculares Sony WH-1000XM4|349.99|20
+6|GPU NVIDIA RTX 3060|399.99|15
+7|Placa Base ASUS ROG|249.99|25
+8|SSD Samsung 1TB|109.99|40
+9|Memoria RAM Corsair 16GB|79.99|60
+10|Fuente de Poder EVGA 600W|69.99|35
+11|Laptop HP Pavilion|749.99|20
+12|Monitor LG UltraWide 34"|499.99|10
+13|Impresora HP LaserJet|199.99|15
+14|Cámara Web Logitech C920|89.99|50
+15|Tableta gráfica Wacom|299.99|12
+16|Altavoces Bose Companion 2|129.99|20
+17|Docking Station USB-C|79.99|30
+18|Micrófono Blue Yeti|129.99|25
+19|Cable HDMI 2.1|19.99|100
+20|Router TP-Link Archer AX50|129.99|40

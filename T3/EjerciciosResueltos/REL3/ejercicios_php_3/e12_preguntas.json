@@ -1,0 +1,103 @@
+[
+    {
+      "pregunta": "¿Qué función se usa para mostrar texto en PHP?",
+      "opciones": ["echo", "print", "display", "show"],
+      "respuesta_correcta": "echo"
+    },
+    {
+      "pregunta": "¿Qué símbolo se utiliza para indicar una variable en PHP?",
+      "opciones": ["$", "@", "#", "&"],
+      "respuesta_correcta": "$"
+    },
+    {
+      "pregunta": "¿Cómo se declara una constante en PHP?",
+      "opciones": ["define()", "const()", "constant()", "setconst()"],
+      "respuesta_correcta": "define()"
+    },
+    {
+      "pregunta": "¿Cuál es la extensión estándar de un archivo PHP?",
+      "opciones": [".php", ".html", ".js", ".py"],
+      "respuesta_correcta": ".php"
+    },
+    {
+      "pregunta": "¿Qué función en PHP se usa para contar el número de elementos en un array?",
+      "opciones": ["count()", "sizeof()", "length()", "array_count()"],
+      "respuesta_correcta": "count()"
+    },
+    {
+      "pregunta": "¿Qué función se utiliza para incluir un archivo en PHP?",
+      "opciones": ["include()", "require()", "import()", "add_file()"],
+      "respuesta_correcta": "include()"
+    },
+    {
+      "pregunta": "¿Cuál es la versión más reciente de PHP?",
+      "opciones": ["7.4", "8.0", "8.1", "8.3"],
+      "respuesta_correcta": "8.3"
+    },
+    {
+      "pregunta": "¿Cómo se inicia una sesión en PHP?",
+      "opciones": ["session_start()", "session_init()", "session()", "start_session()"],
+      "respuesta_correcta": "session_start()"
+    },
+    {
+      "pregunta": "¿Qué superglobal contiene los datos enviados por un formulario mediante el método POST?",
+      "opciones": ["$_POST", "$_REQUEST", "$_GET", "$_FORM"],
+      "respuesta_correcta": "$_POST"
+    },
+    {
+      "pregunta": "¿Cómo se conecta a una base de datos MySQL en PHP?",
+      "opciones": ["mysqli_connect()", "mysql_connect()", "pdo_connect()", "db_connect()"],
+      "respuesta_correcta": "mysqli_connect()"
+    },
+    {
+      "pregunta": "¿Qué función destruye una variable en PHP?",
+      "opciones": ["unset()", "destroy()", "delete()", "unset_var()"],
+      "respuesta_correcta": "unset()"
+    },
+    {
+      "pregunta": "¿Cómo se realiza una redirección a otra página en PHP?",
+      "opciones": ["header()", "redirect()", "goto()", "send_to()"],
+      "respuesta_correcta": "header()"
+    },
+    {
+      "pregunta": "¿Qué función se usa para obtener la longitud de una cadena en PHP?",
+      "opciones": ["strlen()", "count()", "strlength()", "string_size()"],
+      "respuesta_correcta": "strlen()"
+    },
+    {
+      "pregunta": "¿Qué función se utiliza para filtrar y sanitizar una entrada en PHP?",
+      "opciones": ["filter_var()", "sanitize_input()", "clean_var()", "validate_input()"],
+      "respuesta_correcta": "filter_var()"
+    },
+    {
+      "pregunta": "¿Qué función se utiliza para incluir un archivo sólo si aún no ha sido incluido?",
+      "opciones": ["include_once()", "require_once()", "include()", "load_once()"],
+      "respuesta_correcta": "include_once()"
+    },
+    {
+      "pregunta": "¿Qué función se usa para detener la ejecución de un script en PHP?",
+      "opciones": ["exit()", "stop()", "halt()", "break()"],
+      "respuesta_correcta": "exit()"
+    },
+    {
+      "pregunta": "¿Qué operador se utiliza para la concatenación de cadenas en PHP?",
+      "opciones": [".", "+", "&", "&&"],
+      "respuesta_correcta": "."
+    },
+    {
+      "pregunta": "¿Qué tipo de error devuelve PHP cuando falta un archivo requerido?",
+      "opciones": ["Fatal Error", "Warning", "Notice", "Parse Error"],
+      "respuesta_correcta": "Fatal Error"
+    },
+    {
+      "pregunta": "¿Cómo se define una función en PHP?",
+      "opciones": ["function nombreFuncion()", "def nombreFuncion()", "define nombreFuncion()", "fn nombreFuncion()"],
+      "respuesta_correcta": "function nombreFuncion()"
+    },
+    {
+      "pregunta": "¿Cómo se puede convertir un string a entero en PHP?",
+      "opciones": ["(int)", "intval()", "(integer)", "cast_int()"],
+      "respuesta_correcta": "intval()"
+    }
+  ]
+  
