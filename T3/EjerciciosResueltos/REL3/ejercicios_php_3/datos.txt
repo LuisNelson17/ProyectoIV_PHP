@@ -1,5 +1,0 @@
-Perro
-Gato
-Lobo
-Ratón
-Liebre
