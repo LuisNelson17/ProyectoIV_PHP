@@ -7,9 +7,8 @@
     <title>Luis Nelson</title>
 </head>
 <body>
-    <form action="">
-    <label for=""></label>
-
-    </form>
+<?php
+    
+?>
 </body>
 </html>
