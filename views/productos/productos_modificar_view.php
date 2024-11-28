@@ -7,8 +7,13 @@
     <title>Luis Nelson</title>
 </head>
 <body>
-<?php
-    
-?>
-</body>
-</html>
+<main>
+    <h1>Modificar_Productos</h1>
+    <form action="">
+        <label for="nombre_producto">Producto a cambiar</label>
+        <input type="text">
+        <label for="nuevo_producto">Inserccion de datos nuevos</label>
+        <input type="text" placeholder="Nuevo nombre...">
+        <input type="text" placeholder="Detalles...">
+        <input type="text" placeholder="Precio nuevo....">
+    </form>

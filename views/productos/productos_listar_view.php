@@ -7,8 +7,6 @@
     <title>Luis Nelson</title>
 </head>
 <body>
-<?php
+<main>
+    <h1>Listar Productos</h1>
     
-?>
-</body>
-</html>
