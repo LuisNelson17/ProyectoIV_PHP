@@ -8,10 +8,11 @@
     <link rel='stylesheet' href='https://cdn.simplecss.org/simple.min.css'>
     <link rel='stylesheet' href='./css/bd.css'>
 </head> 
+<body>
   <main>
- <h2>Insertar Categoria</h2>
+ <h2>Borrar Categoria</h2>
     <form action="">
-        <label for="nombre_categoria">Nombre de la Categoria</label>
+        <label for="nombre_categoria">Nombre de la Categoria a borrar</label>
         <input type="text" placeholder="Nombre...">
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
     </form>
