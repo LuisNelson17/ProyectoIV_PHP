@@ -5,31 +5,29 @@ USE Tienda_proyectoIV;
 -- Crear la tabla 'usuarios'
 CREATE TABLE IF NOT EXISTS usuarios (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
-    usuario VARCHAR(255) NOT NULL,
+    usuario VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     rol ENUM('admin', 'usuario') NOT NULL,
     ultimo_acceso DATETIME
+);
+
+-- Crear la tabla 'categorias'
+CREATE TABLE IF NOT EXISTS categorias (
+    id_categoria INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    descripcion VARCHAR(255)
 );
 
 -- Crear la tabla 'productos'
 CREATE TABLE IF NOT EXISTS productos (
     id_producto INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
+    descripcion VARCHAR(255),
     precio DECIMAL(10, 2) NOT NULL,
-    fecha_agregado DATE NOT NULL,
-    categoria ENUM('electrónica', 'ropa', 'alimentos', 'muebles') NOT NULL,
     imagen BLOB,
-    id_usuario_fk INT,
-    FOREIGN KEY (id_categoria_fk) REFERENCES categorias(id_usuario)
-);
-
--- Crear la tabla 'pedidos'
-CREATE TABLE IF NOT EXISTS categorias (
-    id_categoria INT AUTO_INCREMENT PRIMARY KEY,
-    id_categoria_fk INT,
-    id_producto_fk INT,
-    nombre VARCHAR(25) NOT NULL,
-    descripcion VARCHAR(60)
-    FOREIGN KEY (id_usuario_fk) REFERENCES usuarios(id_usuario),
-    FOREIGN KEY (id_producto_fk) REFERENCES productos(id_producto)
+    tipo_producto ENUM('electrónica', 'ropa', 'alimentos', 'muebles','otros') NOT NULL,
+    fecha_caducidad DATE,
+    stock INT DEFAULT 0,
+    id_categoria INT NOT NULL,
+    FOREIGN KEY (id_categoria) REFERENCES categorias(id_categoria)
 );
