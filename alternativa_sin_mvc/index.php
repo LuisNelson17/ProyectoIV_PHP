@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div id="navbar">
+        <div>
             <ul>
                 <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Usuarios</a></li>

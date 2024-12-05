@@ -22,3 +22,4 @@ function conectar_bd()
 function cerrar_bd($conexion){
    mysqli_close($conexion);
 }
+?>
